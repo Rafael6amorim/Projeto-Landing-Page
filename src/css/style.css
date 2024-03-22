@@ -1,0 +1,214 @@
+.cabecalho {
+    height: 12.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 8.65rem;
+}
+
+.cabecalho .logo {
+    display: flex;
+    align-items: center;
+    transition: 0.3s ease-in-out
+}
+
+.cabecalho .logo img {
+    width: 10rem;
+    height: 7.5rem;
+}
+
+.cabecalho .logo .titulo-cabecalho {
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cabecalho .logo .titulo-cabecalho:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: flex-end;
+    width: 37.4rem;
+
+}
+
+.navegacao li {
+    margin-right: 2rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    width: 9rem;
+    height: 4.9rem;
+}
+
+.navegacao a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+
+}
+
+.navegacao a:hover {
+    background-color: green;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+
+
+/* Seção painel principal */
+
+.painel-principal {
+    position: relative;
+    height: 70rem;
+}
+.imagem-principal{
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+}
+.mostrar{
+    opacity: 1;
+}
+.projeto1{
+    background: url(../imagnes/painel1.jpg) no-repeat;
+    background-size: cover;
+}
+.projeto2{
+    background: url(../imagnes/painel2.jpg) no-repeat ;
+    background-size: cover;
+}
+.projeto3{
+    background: url(../imagnes/painel3.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+.titulo-painel {
+    font-size: 3.96rem;
+    font-weight: 900;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
+
+.btn{
+    background: url(../imagnes/seta.png) no-repeat center;
+    background-size:5.5rem 6rem;
+    position: absolute;
+    display: flex;
+    align-self: center;
+    height: 100%;
+    width: 10rem;
+    z-index: 1;
+}
+.btn-avancar {
+    right: 0;
+}
+.btn-voltar{
+    left: 2rem;
+    transform: rotateY(180deg);
+}
+
+
+
+
+
+
+/* Seção quem somos */
+.quem-somos {
+    height: 39.4rem;
+    background-color: #2941AB;
+    padding: 0 13.4rem;
+}
+
+.conteudo-quem-somos {
+    display: flex;
+}
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo-quem-somos {
+    color: #1ED760;
+    font-size: 5rem;
+}
+
+.paragrafo-quem-somos {
+    width: 42.9rem;
+    height: 21rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.imagem-quem-somos {
+
+    width: 60%;
+}
+
+
+/* Seção rodape */
+
+.rodape {
+    height: 15.8rem;
+}
+
+.navegacao-rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 8.65rem;
+    height: 100%;
+}
+
+.conteudo-rodape {
+    display: flex;
+    align-items: center;
+}
+
+.navegacao-rodape img {
+    width: 5rem;
+    height: 3.7rem;
+}
+
+.nome-da-agencia-rodape {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-left: 1rem;
+}
+
+.redes-sociais {
+    width: 22.5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.redes-sociais a {
+    width: 5.5rem;
+    height: 5rem;
+    border: 0.1rem solid black;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+
+.redes-sociais a:hover {
+    background-color: #1ED760;
+}
